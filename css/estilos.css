@@ -1,0 +1,73 @@
+h1, h2, h3, h4, h5, h6, figure, ul, p {
+	margin: 0;
+}
+body{
+	background-color: #dedede;
+}
+.header{
+	width: 100%;
+}
+.header .nav{
+	background-color: #7BB0A6;
+	padding: 10px 0;
+}
+.header .nav .miUl{
+	width: 900px;
+	margin: 0 auto;
+	
+}
+.nav .miUl .lista{
+	display: inline;
+	color: white;
+	font-size: 22px;
+	padding: 12px 12px;
+}
+.nav .miUl .select{
+	background-color: black;
+}
+.header .miprofile{
+	background-image: url(../img/paisaje2.jpg);
+	background-size: cover;
+	
+}
+.header .miprofile .figure{
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.miprofile .figure .avatar{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 5px solid white;
+}
+main{
+	width: 100%;
+	background-color: white;
+}
+main .sections{
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+main .sections .miHeader{
+	background-color: #71BA51;
+	margin-bottom: 10px;
+	
+}
+.sections .miHeader h2{
+	color: white;
+	padding: 10px 5px;
+}
+.sections .mishabilidades .ulIzq, .ulDer{
+	width: 250px;
+}
+.sections .mishabilidades .ulIzq{
+	float: left;
+}
+.sections .mishabilidades .ulDer{
+	float: right;
+}
+.sections .mishabilidades{
+	overflow: hidden;
+}
